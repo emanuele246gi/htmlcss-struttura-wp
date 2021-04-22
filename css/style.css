@@ -15,6 +15,19 @@ header, footer{
 }
 
 .float{
-    height: 100px;
+    float: left;
+}
+
+aside{
+    height: 500px;
+    background-color: lightblue;
+    border: 1px solid black;
+    width: 300px;
+    
+}
+
+.due{
+    height: 500px;
+    width: 600px;
     background-color: lightblue;
 }
