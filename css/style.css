@@ -4,7 +4,13 @@
     box-sizing: border-box;
 }
 
-header{
+header, footer{
     height: 100px;
     background-color: violet;
+}
+
+main{
+    height: 300px;
+    background-color: rgb(204, 204, 108);
+    border: 1px solid black;
 }
