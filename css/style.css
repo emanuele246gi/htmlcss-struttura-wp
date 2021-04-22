@@ -1,5 +1,4 @@
 *{
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -7,27 +6,45 @@
 header, footer{
     height: 100px;
     background-color: violet;
+    width: 100%;
+}
+
+footer{
+    margin-top: 520px;
+
+}
+
+main{
+    width: 80%;
+    margin: auto;
 }
 
 .corpo{
     height: 300px;
     background-color: rgb(204, 204, 108);
+    width: 100%px;
+    margin-top: 10px;
 }
 
 .float{
     float: left;
+    margin-top: 10px;
 }
 
 aside{
     height: 500px;
     background-color: lightblue;
-    border: 1px solid black;
     width: 300px;
-    
 }
 
 .due{
     height: 500px;
-    width: 600px;
+    width: 500px;
     background-color: lightblue;
+    margin-left: 57px;
+}
+
+.tre{
+    float: right;
+
 }
