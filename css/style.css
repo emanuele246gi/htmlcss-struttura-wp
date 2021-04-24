@@ -15,7 +15,7 @@ footer{
 
 }
 
-main{
+.container{
     width: 80%;
     margin: auto;
 }
@@ -28,24 +28,25 @@ main{
 }
 
 .float{
+    margin-top: 10px;
+    display: inline;
     float: left;
+    height: 500px;
     margin-top: 10px;
 }
 
 aside{
-    height: 500px;
     background-color: lightblue;
     width: 300px;
 }
 
 .due{
-    height: 500px;
-    width: 500px;
+    width: 400px;
     background-color: lightblue;
-    margin-left: 57px;
+    margin: 0% 5%;
+    margin-top: 10px;
 }
 
 .tre{
-    float: right;
-
+    width: ;
 }
